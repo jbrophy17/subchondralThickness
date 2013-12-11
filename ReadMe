@@ -27,7 +27,11 @@ To use the plugin, follow these steps:
 
 4. After selecting the points, click 'Ok' in the dialog
 
-5. On the image you want to end with, click 4 points to create a Region of Interest
+5. On the image you want to end with, click 4 points to create a Region of Interest 
+**NOTE** Currently, you must select the points in the same order as the first image, i.e. if you clicked the top left corner first, 
+		 click the top left corner of the second region first as well. The order matters, as the plugin linearly interpolates the points
+		 between matching verticies 
+
 **Note** When selecting your points, the screen may not show the most recent point you clicked, a fix is in the works, but for now
          be confident that it did register your click
 
